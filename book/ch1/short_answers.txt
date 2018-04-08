@@ -1,0 +1,49 @@
+What is source code?
+- Sequence of instructions that are provided to a computer to execute variety of tasks and computation
+
+What makes computer so "smart", anyways?
+- Allows computer to execute calculations at high speeds and iterate through data
+
+What is the purpose of a programming language?
+- provide a set of instructions in a language that can be translated from human (pseudo code) to computer (binary)
+
+What are 3 examples of programming languages? why are there so many of these?
+- C++, PHP, Python - each has different strengths and weaknesses, can be used for variety of tasks depending on data processing and capabilities needed
+
+What is a variable? Why are variables useful?
+- a specific spot in memory with a label for referencing or inspecting the value. Allows us to store data temporarily in memory while calculations are run
+
+What is the difference between a single-equals (=) and a double-equals (==)?
+- single sets a variable to a value. double runs a non-strict comparison. It will convert values to same type before comparing
+
+What is the difference between a double-equals (==) and a triple-equals (===)?
+- loose comparison (converts values to same type before comparison) or strict-comparison
+
+Why does the developer console exist?
+- to debug and test
+
+When we talk about "conditional" statements, what does that mean? What is an example?
+- comparison between two values to see if a "condition" is met to execute code
+
+Why would we want FOR or WHILE loops in our source code?
+- to iterate through large sums of data quickly
+
+When would you use a WHILE loop, instead of a FOR loop?
+- when we do not know amount of data to iterate through or when looking for a specific case
+
+What is a function? Why would we use functions?
+- store code that is used repetitively in loops or other functions rather than rewriting it in each place its used
+
+How many values can you receive back from a function? How many values can you send in?
+- output: 1 but it can be of style tuple, array, string, etc... can join values together and pass back as one (or object)
+- input: infinite
+
+What is an array? How many values does it hold?
+- a variable that can store multiple values that can be accessed individually by specifying where in the variable to look, i.e. position 0 or position 1 will return different values in an array of size 2
+
+What is a T-diagram and why should I know how to use one?
+- a method of recording all local variables while working through a loop and/or function
+- help diagnose a function/loop that works through an array
+
+What are the two ways to comment JS code? When would you use one versue the other?
+using double slash // or /* */, single line vs. multiline comments

@@ -1,0 +1,7 @@
+// 2/1/2017 PENULTIMATE DAY
+// Longest Palindrome: For this challenge, we will look not only at the entire string, but also substrings within it.
+// Return the longest palindromic substring. Given "what up, daddy-o?", return "dad". Given "uh...not much", return "u". Include spaces as well (i.e. be strict, as in previous challenge): given "Yikes! my favorite racecar erupted!", return "e racecar e". Strings longer or shorter than complete words are OK.
+// Second: re-solve, ignoring spaces, tabs, returns, capitalization and punctuation. Given "Hot puree eruption!", return "tpureeerupt".
+// Weak Finger: Write a function to return how high you can count on one hand (continually from finger 1 to 5 and back again), if one finger is weak. If you were able to count the following sequence “1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3”, you would return 11 as the number of times you counted. You will be sent the number of the finger that is weak, and the number of times you can use it. After that you cannot count on it, nor skip it. Given (5,0) return 4, as you would use fingers 1,2,3,4 (stopping before 5). Given (2,1) return 7, as you’d use 1,2,3,4,5,4,3 (stopping before 2).
+// Recursive 2nd Largest: Given a pointer to the first node in a singly linked list, return the second-largest value in the list using a recursive function call.
+// Shuffle: Given a Stack/Queue/CirQue/Deque, write a function that returns the structure with all of its' data in a 'shuffled' order.

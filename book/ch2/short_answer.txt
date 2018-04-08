@@ -1,0 +1,28 @@
+What is the javascript math library? What does it contain?
+ - contains numerical functions into a group that can be accessed when needed. Contains items such as float, rounding, absolute values, etc...
+
+Why aren'tt all those functions just inlcuded in javascript automatically?
+- allows us to have a minimized base language and load tools (libraries) when we needed them instead
+
+If I call Math.Random(), what will it return?
+- random number between 0 (inclusive) and 1 (exclusive);
+
+What do the following functions do: math.floor, math.ceil, math.trunc, math.round?
+- floor returns number rounded down
+- ceil returns number rounded up
+- truncates cuts off the decimal
+- round - does not exist?
+
+When do Math.floor and math.trunc not return the same value?
+- never, floor will round down, trunc will cut off decimal thus rounding down
+
+What is the % operator? When is it useful?
+- modulous operator, returns remainder from division equation. i.e. 5 / 2 has a remainder of 1 so 5 % 2 = 1
+
+How do I make variables declared outside (right next to) a function visibile inside it?
+- declare outside the function
+- var variable = 0;
+- function (){ do stuff to variable}
+
+Why should i comment my code? If I know what it does, isn't commenting just a waste of time?
+- makes it easier to decipher when others are looking at your code and help remind you later what you were doing and/or thinking
